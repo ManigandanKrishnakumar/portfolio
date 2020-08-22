@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     overflow: hidden;
+    font-family: 'Lato', sans-serif;
   }
 `;
 
