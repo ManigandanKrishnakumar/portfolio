@@ -1,7 +1,7 @@
 const darkTheme = {
-  primary: '#282c34',
-  secondary: '#7c61c1',
-  tertiary: '#FFF',
+  mainBgColor: '#282c34',
+  highlightColor: '#7c61c1',
+  fontColor: '#FFF',
 };
 
 export default darkTheme;

@@ -7,19 +7,18 @@ import {ThemeProvider} from 'styled-components';
 import {getTheme} from './helper-functions/getTheme';
 import {THEMES} from './constants/theme';
 import GlobalStyles from './styled-components/GlobalStyles';
+import Header from './components/Header/Header';
+import useTheme from './custom-hooks/useTheme';
+import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 
 function App() {
-  const [uiTheme, setUiTheme] = useState(THEMES.LIGHT);
+  const [uiTheme, setUiTheme] = useTheme();
   return (
     <ThemeProvider theme={getTheme(uiTheme)}>
       <GlobalStyles />
       <div className="App">
-        <header className="App-header">
-          <img src={devImage} className="App-logo" alt="logo" />
-          <h1> Hi ! I'm Manigandan. </h1>
-          <IoIosConstruct className="construction-icon" />
-          <p>This site is under construction. Please Visit back Later.</p>
-        </header>
+        <Header currentTheme={uiTheme} onThemeChange={setUiTheme} />
+        <UnderConstruction />
       </div>
     </ThemeProvider>
   );

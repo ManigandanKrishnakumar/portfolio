@@ -1,5 +1,5 @@
 export default {
-  primary: "#7510F7",
-  secondary: "#FFF",
-  tertiary: "#141c3a",
+  mainBgColor: '#fbfbfb',
+  highlightColor: '#7510F7',
+  fontColor: '#141c3a',
 };

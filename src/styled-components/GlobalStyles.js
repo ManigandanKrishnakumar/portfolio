@@ -2,9 +2,13 @@ import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --primary-color: ${(props) => props.theme.primary};
-    --seconday-color: ${(props) => props.theme.seconday};
-    --tertiary-color: ${(props) => props.theme.tertiary};
+    --main-bg-color: ${(props) => props.theme.mainBgColor};
+    --highlight-color: ${(props) => props.theme.highlightColor};
+    --font-color: ${(props) => props.theme.fontColor};
+  }
+
+  body {
+    overflow: hidden;
   }
 `;
 

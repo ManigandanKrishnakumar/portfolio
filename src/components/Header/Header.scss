@@ -1,0 +1,14 @@
+@import '../../StyleVariables.scss';
+
+.header-container {
+  min-height: 3.25rem;
+  padding: 1.5rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--main-bg-color);
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: 1.5rem 2rem;
+  }
+}
