@@ -1,0 +1,9 @@
+@import '../../StyleVariables.scss';
+
+.logo-container {
+  .logo-img {
+    @media (max-width: $breakpoint-mobile) {
+      height: 35px;
+    }
+  }
+}
