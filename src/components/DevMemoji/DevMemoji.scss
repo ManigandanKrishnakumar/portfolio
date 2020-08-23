@@ -1,0 +1,14 @@
+.memoji-container {
+  background-color: var(--highlight-color);
+  height: 28vmin;
+  width: 26vmin;
+  border-radius: 40% 0;
+  margin: 4rem auto;
+
+  .dev-image {
+    height: 25vmin;
+    pointer-events: none;
+    position: relative;
+    left: -4px;
+  }
+}

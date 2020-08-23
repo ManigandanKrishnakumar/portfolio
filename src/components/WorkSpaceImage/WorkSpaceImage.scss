@@ -1,0 +1,14 @@
+.workspace-img-container {
+  display: flex;
+  justify-content: center;
+
+  .workspace-img-wrapper {
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+
+    .work-space-image {
+      width: 100%;
+    }
+  }
+}

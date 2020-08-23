@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'SLight';
+  src: local('SLight'), url(./assets/fonts/segoeuil.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

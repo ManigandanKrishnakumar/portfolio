@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--main-bg-color);
 
   @media (max-width: $breakpoint-mobile) {
     padding: 1.5rem;

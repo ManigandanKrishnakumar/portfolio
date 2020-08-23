@@ -1,0 +1,22 @@
+$background: var(--highlight-color);
+
+.about-me-content-container {
+  background-color: $background;
+  text-align: center;
+  padding: 5rem 0 20rem 0;
+
+  .about-me-wrapper {
+    background-color: $background;
+    max-width: 50%;
+    margin: 0 auto;
+
+    h2,
+    p {
+      color: var(--highlight-contrast);
+    }
+
+    .about-me {
+      line-height: 2rem;
+    }
+  }
+}

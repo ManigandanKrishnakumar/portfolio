@@ -1,7 +1,4 @@
 .container {
-  background: var(--main-bg-color);
-  color: var(--font-color);
-  overflow: hidden;
   flex: 1;
 
   .content {
@@ -14,6 +11,7 @@
     min-height: 95vh;
     .construction-icon {
       font-size: 5rem;
+      color: var(--font-color);
     }
     .dev-image {
       height: 35vmin;

@@ -1,0 +1,16 @@
+@import '../../StyleVariables.scss';
+.banner-container {
+  text-align: center;
+
+  .hello-message {
+    font-size: 3rem;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 2rem;
+    }
+  }
+
+  .motto {
+    font-size: 1.25rem;
+  }
+}
