@@ -1,3 +1,7 @@
+@import '../../StyleVariables.scss';
 .about-me-container {
   margin-top: 2.5rem;
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: 0;
+  }
 }
