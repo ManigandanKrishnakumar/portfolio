@@ -11,6 +11,7 @@ export default ({currentTheme}) => {
         <img
           src={currentTheme === THEMES.LIGHT ? devLight : devDark}
           className="work-space-image"
+          alt="work-space-svg"
         />
       </div>
     </div>

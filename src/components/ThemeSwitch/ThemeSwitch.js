@@ -10,19 +10,15 @@ export default ({onThemeChange, theme}) => {
       ? onThemeChange(THEMES.DARK)
       : onThemeChange(THEMES.LIGHT);
   };
-
+  useEffect(() => {
+    inputRef.current.checked = theme === THEMES.DARK;
+  }, [theme, inputRef]);
   return (
     <div className="theme-switch-container">
       <IoIosSunny className="day-icon" />
       <div className="switch-checkbox">
-        <input
-          checked={theme === THEMES.DARK}
-          type="checkbox"
-          id="switch"
-          ref={inputRef}
-          onClick={onCheck}
-        />
-        <label for="switch"></label>
+        <input type="checkbox" id="switch" ref={inputRef} onClick={onCheck} />
+        <label htmlFor="switch"></label>
       </div>
       <IoIosMoon className="night-icon" />
     </div>

@@ -11,6 +11,7 @@ export default ({theme}) => {
         src={theme === THEMES.LIGHT ? logoPurple : logoWhite}
         className="logo-img"
         height="48"
+        alt="logo"
       />
     </div>
   );
