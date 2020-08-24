@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.97724a89.chunk.css",
-    "main.js": "/portfolio/static/js/main.7dc985d7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7dc985d7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.f5725a7d.chunk.js": "/portfolio/static/js/2.f5725a7d.chunk.js",
-    "static/js/2.f5725a7d.chunk.js.map": "/portfolio/static/js/2.f5725a7d.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.224fa46552c2ee020d9a571b9eb4471f.js": "/portfolio/precache-manifest.224fa46552c2ee020d9a571b9eb4471f.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.97724a89.chunk.css.map": "/portfolio/static/css/main.97724a89.chunk.css.map",
-    "static/js/2.f5725a7d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5725a7d.chunk.js.LICENSE.txt",
-    "static/media/dev-dark.svg": "/portfolio/static/media/dev-dark.0495fd2a.svg",
-    "static/media/dev-memoji.png": "/portfolio/static/media/dev-memoji.7e73afa2.png",
-    "static/media/dev.svg": "/portfolio/static/media/dev.155222f2.svg",
-    "static/media/mani-logo-white.svg": "/portfolio/static/media/mani-logo-white.34ce1459.svg",
-    "static/media/mani-logo.svg": "/portfolio/static/media/mani-logo.16382323.svg",
-    "static/media/segoeuil.ttf": "/portfolio/static/media/segoeuil.11fd79bc.ttf"
+    "main.css": "/static/css/main.351630e7.chunk.css",
+    "main.js": "/static/js/main.0f71f6fd.chunk.js",
+    "main.js.map": "/static/js/main.0f71f6fd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.84359cfc.chunk.js": "/static/js/2.84359cfc.chunk.js",
+    "static/js/2.84359cfc.chunk.js.map": "/static/js/2.84359cfc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b1a7214ceec2e805326531e32c34165.js": "/precache-manifest.2b1a7214ceec2e805326531e32c34165.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.351630e7.chunk.css.map": "/static/css/main.351630e7.chunk.css.map",
+    "static/js/2.84359cfc.chunk.js.LICENSE.txt": "/static/js/2.84359cfc.chunk.js.LICENSE.txt",
+    "static/media/dev-dark.svg": "/static/media/dev-dark.0495fd2a.svg",
+    "static/media/dev-memoji.png": "/static/media/dev-memoji.7e73afa2.png",
+    "static/media/dev.svg": "/static/media/dev.155222f2.svg",
+    "static/media/mani-logo-white.svg": "/static/media/mani-logo-white.34ce1459.svg",
+    "static/media/mani-logo.svg": "/static/media/mani-logo.16382323.svg",
+    "static/media/segoeuil.ttf": "/static/media/segoeuil.11fd79bc.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.f5725a7d.chunk.js",
-    "static/css/main.97724a89.chunk.css",
-    "static/js/main.7dc985d7.chunk.js"
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.84359cfc.chunk.js",
+    "static/css/main.351630e7.chunk.css",
+    "static/js/main.0f71f6fd.chunk.js"
   ]
 }
