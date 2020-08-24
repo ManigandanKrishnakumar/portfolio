@@ -3,6 +3,11 @@
   src: local('SLight'), url(./assets/fonts/segoeuil.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'SRegular';
+  src: local('SRegular'), url(./assets/fonts/segoe-ui.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './styled-components/_global-styles.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/fonts/segoeuil.ttf';
+import './assets/fonts/segoe-ui.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

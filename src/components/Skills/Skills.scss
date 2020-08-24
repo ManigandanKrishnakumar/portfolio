@@ -1,0 +1,9 @@
+@import '../../StyleVariables.scss';
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-mobile) {
+    max-width: 90%;
+  }
+}
