@@ -1,9 +1,19 @@
 @import '../../StyleVariables.scss';
 .skills-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -10rem auto 0;
+  display: flex;
+  border-radius: 1rem;
 
   @media (max-width: $breakpoint-mobile) {
     max-width: 90%;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    max-width: 90%;
+  }
+
+  @media (max-width: $breakpoint-mobile-s) {
+    flex-direction: column;
   }
 }

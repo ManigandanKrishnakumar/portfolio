@@ -4,4 +4,5 @@ export default {
   fontColor: '#141c3a',
   scrollThumbColor: '#141c3a',
   highlightContrast: '#f1eeee',
+  borderColor: 'rgba(0,0,0,0.1)',
 };

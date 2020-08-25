@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
     --highlight-color: ${(props) => props.theme.highlightColor};
     --font-color: ${(props) => props.theme.fontColor};
     --highlight-contrast: ${(props) => props.theme.highlightContrast};
+    --border-color: ${(props) => props.theme.borderColor};
   }
 
   ::-webkit-scrollbar-thumb {
