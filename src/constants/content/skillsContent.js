@@ -36,7 +36,7 @@ export const SKILL_CATAGORIES = [
         ICON: {
           NAME: 'SiJavascript',
           FAMILY: 'si',
-          COLOR: '#ECD71B',
+          COLOR: '#e39524',
         },
         PROGRESS: '80',
       },
@@ -79,7 +79,7 @@ export const SKILL_CATAGORIES = [
         ICON: {
           NAME: 'SiJavascript',
           FAMILY: 'si',
-          COLOR: '#ECD71B',
+          COLOR: '#e39524',
         },
         PROGRESS: '80',
       },
@@ -122,7 +122,7 @@ export const SKILL_CATAGORIES = [
         ICON: {
           NAME: 'SiJavascript',
           FAMILY: 'si',
-          COLOR: '#ECD71B',
+          COLOR: '#e39524',
         },
         PROGRESS: '80',
       },
