@@ -1,6 +1,6 @@
 const darkTheme = {
   mainBgColor: '#282c34',
-  highlightColor: '#7c61c1',
+  highlightColor: '#684ea9',
   fontColor: '#d4d6db',
   scrollThumbColor: '#b4b7bc',
   highlightContrast: '#d4d6db',

@@ -9,7 +9,13 @@
 }
 
 body {
-  font-family: 'SLight';
+  font-family: 'SLight', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  .bold {
+    font-weight: bold;
+  }
 
   div {
     overflow: hidden;

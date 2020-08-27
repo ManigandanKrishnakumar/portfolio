@@ -4,7 +4,18 @@
   text-align: center;
   border: 1px solid;
   border-color: var(--border-color);
-  min-height: 600px;
+  min-height: 500px;
+  padding: 2rem 1rem;
+
+  p {
+    font-size: 1.15rem;
+
+    &.label {
+      font-size: 1.3rem;
+      font-family: 'SRegular';
+      color: var(--highlight-color);
+    }
+  }
 
   &:first-child {
     border-right-width: 0;
@@ -14,6 +25,15 @@
   &:last-child {
     border-left-width: 0;
     border-radius: 0 1rem 1rem 0;
+  }
+
+  .skill-catagory-icon {
+    font-size: 3rem;
+    color: var(--highlight-color);
+  }
+
+  .skills-list {
+    margin-top: 3rem;
   }
 
   @media (max-width: $breakpoint-mobile-s) {
@@ -27,6 +47,16 @@
       border-left-width: 1px;
       border-top-width: 0;
       border-radius: 0 0 1rem 1rem;
+    }
+  }
+
+  @media (max-width: $breakpoint-mobile) and (max-width: 1200px) {
+    h2 {
+      font-size: 1.9rem;
+    }
+
+    p {
+      font-size: 1rem;
     }
   }
 }

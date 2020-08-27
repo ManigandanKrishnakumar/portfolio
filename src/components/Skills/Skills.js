@@ -1,14 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Skills.scss';
 import SkillCatagory from '../SkillCatagory/SkillCatagory';
 import {SKILL_CATAGORIES} from '../../constants/content/skillsContent';
-
-export default ({skill}) => {
+import ScrollAnimation from 'react-animate-on-scroll';
+import {} from 'react-icons';
+export default () => {
+  const [inView, setInView] = useState(false);
   return (
-    <div className="skills-container">
+    <ScrollAnimation
+      className="skills-container"
+      animateIn="fadeIn"
+      delay={0}
+      afterAnimatedIn={() => {
+        setInView(true);
+      }}>
       {SKILL_CATAGORIES.map((skill) => {
-        return <SkillCatagory skill={skill} key={skill.id} />;
+        return <SkillCatagory skill={skill} key={skill.id} isInView={inView} />;
       })}
-    </div>
+    </ScrollAnimation>
   );
 };

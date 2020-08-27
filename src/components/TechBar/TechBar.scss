@@ -1,0 +1,36 @@
+@import '../../StyleVariables.scss';
+
+.tech-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+
+  .tech-icon {
+    width: 20%;
+    font-size: 2rem;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .progress-bar {
+    width: 75%;
+    height: 10px;
+    background-color: var(--border-color);
+    border-radius: 5px;
+
+    .progress {
+      height: 10px;
+      border-radius: 5px;
+      background-color: var(--highlight-color);
+      transition: width ease-out 1s;
+      position: relative;
+
+      .tech-name {
+        font-size: 5px;
+      }
+    }
+  }
+}
