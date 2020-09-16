@@ -9,6 +9,7 @@ import UnderConstruction from './components/UnderConstruction/UnderConstruction'
 import Banner from './components/Banner/Banner';
 import AboutMe from './components/AboutMe/AboutMe';
 import withContext from './hoc/withContext';
+import RecentWork from './components/RecentWork/RecentWork';
 
 function App() {
   const [uiTheme, setUiTheme] = useTheme();
@@ -19,6 +20,7 @@ function App() {
         <Header currentTheme={uiTheme} onThemeChange={setUiTheme} />
         <Banner />
         <AboutMe currentTheme={uiTheme} />
+        <RecentWork />
         <UnderConstruction />
       </div>
     </ThemeProvider>

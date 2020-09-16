@@ -2,10 +2,16 @@
 
 .header-container {
   min-height: 3.25rem;
-  padding: 2.5rem 10rem;
+  padding: 1.5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 1px solid var(--border-color);
 
   @media (max-width: $breakpoint-mobile) {
     padding: 1.5rem;
