@@ -3,7 +3,6 @@ import './Skills.scss';
 import SkillCatagory from '../SkillCatagory/SkillCatagory';
 import {SKILL_CATAGORIES} from '../../constants/content/skillsContent';
 import ScrollAnimation from 'react-animate-on-scroll';
-import {} from 'react-icons';
 export default () => {
   const [inView, setInView] = useState(false);
   return (

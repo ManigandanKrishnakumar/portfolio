@@ -1,0 +1,15 @@
+@import '../../StyleVariables.scss';
+.projects-list-container {
+  max-height: 500px;
+  overflow: auto;
+  margin: 10px;
+  .projects-list-wrapper {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-mobile-s) {
+      width: 100%;
+    }
+  }
+}

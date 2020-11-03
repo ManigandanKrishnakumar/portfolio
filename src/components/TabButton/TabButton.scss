@@ -1,0 +1,16 @@
+.tab-button-container {
+  margin: 1rem;
+  cursor: pointer;
+  .button-text {
+    margin: 10px 0;
+  }
+  &.selected {
+    border-bottom: 2px solid;
+    border-color: var(--highlight-color);
+    .button-text {
+      color: var(--highlight-color);
+      font-family: 'SRegular';
+      font-weight: bold;
+    }
+  }
+}

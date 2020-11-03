@@ -1,0 +1,64 @@
+@import '../../StyleVariables.scss';
+.project-item-container {
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: var(--border-color);
+  display: flex;
+  height: 8rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .project-image-container {
+    width: 20%;
+    background-color: var(--highlight-color);
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      font-size: 5rem;
+    }
+  }
+  .project-desc-container {
+    width: 80%;
+    color: var(--font-color);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      margin: 0;
+    }
+    .project-name {
+      font-family: 'Sregular';
+      font-size: 1.5rem;
+    }
+    .project-desc {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 1.1rem;
+    }
+    .tech-stack {
+      font-size: 1.1rem;
+      .label {
+        font-family: 'Sregular';
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-mobile-s) {
+    height: 100px;
+    .project-desc-container {
+      display: unset;
+      .project-desc {
+        display: none;
+      }
+      .tech-stack {
+        font-size: 0.8rem;
+        margin-top: 5px;
+      }
+    }
+  }
+}
