@@ -8,6 +8,14 @@
     width: 50%;
     margin: 0 auto;
 
+    @media (max-width: $breakpoint-tablet) {
+      width: 70%;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 80%;
+    }
+
     @media (max-width: $breakpoint-mobile-s) {
       width: 100%;
     }

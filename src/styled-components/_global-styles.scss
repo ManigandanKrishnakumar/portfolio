@@ -65,3 +65,12 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes slideUp {
+  from {
+    bottom: -80%;
+  }
+  to {
+    bottom: 0;
+  }
+}

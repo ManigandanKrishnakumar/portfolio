@@ -20,6 +20,10 @@ const GlobalStyles = createGlobalStyle`
   p, span, h1, h2 {
     color: var(--font-color);
   }
+
+  .ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+  }
 `;
 
 export default GlobalStyles;

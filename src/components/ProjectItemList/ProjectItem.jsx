@@ -5,7 +5,7 @@ import './ProjectItem.scss';
 export default ({project, onClick}) => {
   const Icon = getIcon(project.ICON.FAMILY, project.ICON.NAME);
   return (
-    <div className="project-item-container">
+    <div className="project-item-container" onClick={() => onClick(project)}>
       <div className="project-image-container">
         <Icon className="icon fade-in"/>
       </div>

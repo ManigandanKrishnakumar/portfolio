@@ -1,0 +1,61 @@
+@import '../../StyleVariables.scss';
+.close-button-wrapper {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  .close-button {
+    font-size: 1rem;
+    color: white;
+  }
+}
+
+.modal-content-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  .project-bar {
+    flex: 1;
+    background-color: var(--highlight-color);
+    color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+  }
+  .project-details {
+    flex: 3;
+    padding: 1rem;
+    .project-catagory {
+      color: var(--font-color);
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 100% !important;
+    height: 80% !important;
+    transform: none !important;
+    bottom: 0;
+    left: 0 !important;
+    top: unset !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    animation: slideUp 0.5s forwards !important;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .modal-content-container {
+    flex-direction: column;
+  }
+}

@@ -50,8 +50,16 @@
 
   @media (max-width: $breakpoint-mobile-s) {
     height: 100px;
+    .project-image-container {
+      .icon {
+        font-size: 3rem;
+      }
+    }
     .project-desc-container {
       display: unset;
+      .project-name {
+        font-size: 1.25rem;
+      }
       .project-desc {
         display: none;
       }

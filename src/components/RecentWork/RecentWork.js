@@ -11,7 +11,7 @@ export default () => {
     <div className="recent-work-container">
       <TabBar selectedTab={tab} onTabSelect={setTab}/>
       {
-        tab.id === 'client_projects' ? <ProjectsList projects={PROJECTS.CLIENT_PROJECTS} /> : <ProjectsList projects={PROJECTS.OPEN_SOURCE}/>
+        tab.id === 'client_projects' ? <ProjectsList type={tab.id} projects={PROJECTS.CLIENT_PROJECTS} /> : <ProjectsList type={tab.id} projects={PROJECTS.OPEN_SOURCE}/>
       }
     </div>
   );
