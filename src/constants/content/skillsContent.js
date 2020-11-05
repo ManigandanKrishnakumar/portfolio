@@ -40,6 +40,46 @@ export const SKILL_CATAGORIES = [
         },
         PROGRESS: '80',
       },
+      {
+        id: 4,
+        NAME: 'jQuery',
+        ICON: {
+          NAME: 'SiJquery',
+          FAMILY: 'si',
+          COLOR: '#0467AD',
+        },
+        PROGRESS: '75',
+      },
+      {
+        id: 5,
+        NAME: 'Angular',
+        ICON: {
+          NAME: 'SiAngular',
+          FAMILY: 'si',
+          COLOR: '#DA3135',
+        },
+        PROGRESS: '85',
+      },
+      {
+        id: 6,
+        NAME: 'React',
+        ICON: {
+          NAME: 'SiReact',
+          FAMILY: 'si',
+          COLOR: '#5FD3F2',
+        },
+        PROGRESS: '85',
+      },
+      {
+        id: 7,
+        NAME: 'Scss',
+        ICON: {
+          NAME: 'SiSass',
+          FAMILY: 'si',
+          COLOR: '#C66593',
+        },
+        PROGRESS: '85',
+      }
     ],
   },
   {
@@ -55,33 +95,53 @@ export const SKILL_CATAGORIES = [
     SKILLS: [
       {
         id: 1,
-        NAME: 'HTML',
+        NAME: 'Node.js',
         ICON: {
-          NAME: 'SiHtml5',
-          FAMILY: 'si',
-          COLOR: '#dd4a25',
+          NAME: 'FaNodeJs',
+          FAMILY: 'fa',
+          COLOR: '#86BF01',
         },
         PROGRESS: 80,
       },
       {
         id: 2,
-        NAME: 'CSS',
+        NAME: 'Java(Spring)',
         ICON: {
-          NAME: 'SiCss3',
+          NAME: 'SiSpring',
           FAMILY: 'si',
-          COLOR: '#146EB0',
+          COLOR: '#6AAD3C',
         },
-        PROGRESS: 85,
+        PROGRESS: 70,
       },
       {
         id: 3,
-        NAME: 'JavaScript',
+        NAME: 'AWS Lamba',
         ICON: {
-          NAME: 'SiJavascript',
+          NAME: 'SiAmazonaws',
           FAMILY: 'si',
-          COLOR: '#e39524',
+          COLOR: '#ED781F',
         },
-        PROGRESS: '80',
+        PROGRESS: '65',
+      },
+      {
+        id: 4,
+        NAME: 'MySQL',
+        ICON: {
+          NAME: 'SiMysql',
+          FAMILY: 'si',
+          COLOR: '#005E86',
+        },
+        PROGRESS: '85',
+      },
+      {
+        id: 5,
+        NAME: 'MongoDB',
+        ICON: {
+          NAME: 'SiMongodb',
+          FAMILY: 'si',
+          COLOR: '#66AD3C',
+        },
+        PROGRESS: '85',
       },
     ],
   },
@@ -98,33 +158,33 @@ export const SKILL_CATAGORIES = [
     SKILLS: [
       {
         id: 1,
-        NAME: 'HTML',
+        NAME: 'Ionic',
         ICON: {
-          NAME: 'SiHtml5',
+          NAME: 'SiIonic',
           FAMILY: 'si',
-          COLOR: '#dd4a25',
+          COLOR: '#367CF7',
         },
-        PROGRESS: 80,
+        PROGRESS: 85,
       },
       {
         id: 2,
-        NAME: 'CSS',
+        NAME: 'ReactNative',
         ICON: {
-          NAME: 'SiCss3',
+          NAME: 'SiReact',
           FAMILY: 'si',
-          COLOR: '#146EB0',
+          COLOR: '#25D2F5',
         },
         PROGRESS: 85,
       },
       {
         id: 3,
-        NAME: 'JavaScript',
+        NAME: 'Kotlin',
         ICON: {
-          NAME: 'SiJavascript',
+          NAME: 'SiKotlin',
           FAMILY: 'si',
-          COLOR: '#e39524',
+          COLOR: '#6572DA',
         },
-        PROGRESS: '80',
+        PROGRESS: '30',
       },
     ],
   },

@@ -5,4 +5,5 @@ export default {
   scrollThumbColor: '#141c3a',
   highlightContrast: '#f1eeee',
   borderColor: 'rgba(0,0,0,0.1)',
+  slideBackground: '#7511f740'
 };

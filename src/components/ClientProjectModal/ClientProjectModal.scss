@@ -11,6 +11,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 99;
 
   .close-button {
     font-size: 1rem;
@@ -22,21 +23,74 @@
   height: 100%;
   width: 100%;
   display: flex;
+
   .project-bar {
-    flex: 1;
+    flex: 2;
     background-color: var(--highlight-color);
     color: var(--main-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10rem;
+    font-size: 15rem;
   }
+
+  .images-bar {
+    flex: 2;
+    background-color: var(--slide-background);
+    color: var(--main-bg-color);
+    display: flex;
+    position: relative;
+    padding: 5px;
+
+    .image-full-screen {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 1.5rem;
+      color: white;
+      opacity: 0.75;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+
   .project-details {
     flex: 3;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem;
+    overflow-y: auto;
+    transition: all ease-in 0.5s;
+    .project-name {
+      color: var(--highlight-color);
+    }
     .project-catagory {
       color: var(--font-color);
     }
+    .tech-stack {
+      display: flex;
+    }
+    .label {
+      font-family: 'SRegular';
+      margin-right: 10px;
+      color: var(--highlight-color);
+      font-weight: bold;
+    }
+
+    &.shrink {
+      flex: 0;
+      transform: scale(0, 0);
+    }
+  }
+
+  &.web.open-source {
+    flex-direction: column;
+    .images-bar {
+      flex: 3;
+    }
+  }
+
+  .link {
+    font-family: 'SRegular';
+    color: var(--font-color);
   }
 }
 
@@ -54,8 +108,45 @@
   }
 }
 
+@media (max-width: $breakpoint-mobile-s) {
+  .modal-content-container {
+    .project-bar {
+      font-size: 7rem;
+    }
+    .project-details {
+      overflow-y: auto;
+      .project-desc {
+        font-size: 1rem;
+      }
+      &.shrink.web {
+        flex: 3;
+        transform: unset;
+      }
+    }
+  }
+}
 @media (max-width: $breakpoint-tablet) {
   .modal-content-container {
     flex-direction: column;
   }
+}
+
+.carousel.carousel-slider,
+.slider-wrapper.axis-horizontal,
+.slider,
+.slide {
+  height: 100%;
+}
+
+.carousel .carousel-status {
+  right: unset;
+  left: 0;
+}
+
+.carousel .slide img {
+  width: unset !important;
+}
+
+.carousel .slide {
+  background: var(--slide-background) !important;
 }

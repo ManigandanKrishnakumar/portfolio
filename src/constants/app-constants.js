@@ -3,7 +3,8 @@ export const ICON_FAMILIES = {
   GI_ICONS: 'gi',
   RI_ICONS: 'ri',
   SI_ICONS: 'si',
-  MD_ICONS: 'md'
+  MD_ICONS: 'md',
+  FA_ICONS: 'fa'
 };
 
 export const PROJECT_TABS = [{

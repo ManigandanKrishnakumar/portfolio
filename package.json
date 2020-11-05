@@ -13,7 +13,9 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
+    "react-img-carousel": "^1.7.0",
     "react-modal": "^3.11.2",
+    "react-responsive-carousel": "^3.2.10",
     "react-scripts": "3.4.3",
     "styled-components": "^5.1.1",
     "styled-theming": "^2.2.0"

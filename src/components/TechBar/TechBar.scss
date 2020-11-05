@@ -5,6 +5,29 @@
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+  position: relative;
+
+  &:hover {
+    .skill-name-container {
+      display: block;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      border-radius: 5px;
+      border-color: var(--border-color);
+      background: var(--main-bg-color);
+      border: 1px solid;
+      padding: 2px;
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        animation: unset;
+      }
+    }
+  }
+  .skill-name-container {
+    display: none;
+  }
 
   .tech-icon {
     width: 20%;

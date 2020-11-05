@@ -14,6 +14,9 @@ const TechBar = ({isInView, tech}) => {
           <span className="tech-name"></span>
         </div>
       </div>
+      <div className="skill-name-container">
+        <p>{tech.NAME}</p>
+      </div>
     </div>
   );
 };
