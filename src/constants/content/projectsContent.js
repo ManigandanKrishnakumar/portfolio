@@ -52,7 +52,7 @@ export const PROJECTS = {
       FAMILY: 'md',
     },
     NAME: 'Hyperlocal logistics App',
-    TECH_STACK: 'Ionic, Angular, NodeJs, MongoDB, AWS -RTL',
+    TECH_STACK: 'Ionic, Angular, NodeJs, MongoDB, AWS -RDS',
     CATAGORY: PROJECT_CATAGORY.HYBRID,
     DESC: `Cross-Platform mobile application that enables people to connect with local vendors from various categories of sales and services and get access to all kinds of consumer products with in hours. I have worked as chief technical engineer and product manager in this project.`,
     IMAGES: []  
