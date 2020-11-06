@@ -120,8 +120,8 @@ OPEN_SOURCE: [
     TECH_STACK: 'React, StyledComponents',
     DESC: 'This is boiler plate started for theming the react application which includes the best practices to be followed so that the code can be scaled. This project is already configured with four themes. To add new themes just a new theme.js files with colors and required keys.',
     CATAGORY: PROJECT_CATAGORY.WEB,
-    REPO: 'https://github.com/ManigandanKrishnakumar/react-theming',
-    DEMO: 'https://manigandankrishnakumar.github.io/react-theming/',
+    REPO: 'https://github.com/ManigandanKrishnakumar/react-theming-boilerplate',
+    DEMO: 'https://manigandankrishnakumar.github.io/react-theming-boilerplate/',
     IMAGES: [
       'https://i.ibb.co/pbr2Xkp/1.png',
       'https://i.ibb.co/58YcvnL/2.png',

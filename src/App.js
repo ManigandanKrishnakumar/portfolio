@@ -10,6 +10,7 @@ import Banner from './components/Banner/Banner';
 import AboutMe from './components/AboutMe/AboutMe';
 import withContext from './hoc/withContext';
 import RecentWork from './components/RecentWork/RecentWork';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [uiTheme, setUiTheme] = useTheme();
@@ -22,6 +23,9 @@ function App() {
         <AboutMe currentTheme={uiTheme} />
         <RecentWork />
         <UnderConstruction />
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </ThemeProvider>
   );
