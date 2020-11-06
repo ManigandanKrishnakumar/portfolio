@@ -70,7 +70,7 @@ export default ({project, onClose, isOpen, type}) => {
                 <div className="repo-url">
                   <p>
                     <span className="label">Repository : </span>
-                    <a className="link" href={project.REPO} target="_blank">
+                    <a className="link" href={project.REPO} target="_blank" rel="noopener noreferrer">
                       {project.REPO}
                     </a> 
                   </p>
@@ -84,7 +84,7 @@ export default ({project, onClose, isOpen, type}) => {
                 <div className="repo-url">
                   <p>
                     <span className="label">Demo Site : </span>
-                    <a className="link" href={project.DEMO} target="_blank">
+                    <a className="link" href={project.DEMO} target="_blank" rel="noopener noreferrer">
                       {project.DEMO}
                     </a> 
                   </p>

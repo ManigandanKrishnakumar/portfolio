@@ -1,4 +1,45 @@
+$faded-white: rgba(255, 255, 255, 0.3);
+$faded-white-2: rgba(255, 255, 255, 0.6);
 .footer-container {
-  height: 10rem;
   background-color: var(--highlight-color);
+  padding-top: 2rem;
+  margin-top: 2rem;
+
+  .logo-container {
+    width: fit-content;
+    background: var(--highlight-color);
+    margin: 0 auto;
+  }
+
+  .quote {
+    color: $faded-white-2;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .contact-buttons {
+    margin-top: 2rem;
+    background-color: var(--highlight-color);
+    display: flex;
+    justify-content: center;
+
+    .button {
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+      color: #fff;
+      border: 2px solid;
+      border-color: $faded-white;
+      background-color: var(--highlight-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1rem;
+    }
+  }
+
+  .contact-info {
+    font-family: 'SRegular';
+    text-align: center;
+    color: $faded-white-2;
+  }
 }

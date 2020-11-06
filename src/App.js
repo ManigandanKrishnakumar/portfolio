@@ -5,7 +5,6 @@ import {getTheme} from './helper-functions/getTheme';
 import GlobalStyles from './styled-components/GlobalStyles';
 import Header from './components/Header/Header';
 import useTheme from './custom-hooks/useTheme';
-import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 import Banner from './components/Banner/Banner';
 import AboutMe from './components/AboutMe/AboutMe';
 import withContext from './hoc/withContext';
@@ -22,9 +21,8 @@ function App() {
         <Banner />
         <AboutMe currentTheme={uiTheme} />
         <RecentWork />
-        <UnderConstruction />
         <footer>
-          <Footer />
+          <Footer currentTheme={uiTheme} />
         </footer>
       </div>
     </ThemeProvider>

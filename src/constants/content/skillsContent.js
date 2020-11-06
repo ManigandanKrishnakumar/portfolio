@@ -90,7 +90,7 @@ export const SKILL_CATAGORIES = [
     },
     CATAGORY_NAME: 'Back End',
     CATAGORY_DESC:
-      'I value simple content structure, clean design patterns, and thoughtful interactions.',
+      'I like to code things from scratch, and enjoy bringing ideas to life.',
     SKILLS_LABEL: 'Languages I speak',
     SKILLS: [
       {
