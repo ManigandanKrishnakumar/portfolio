@@ -86,6 +86,78 @@ export const PROJECTS = {
 ],
 OPEN_SOURCE: [
   {
+    ID: 3,
+    ICON: 
+    {
+      NAME: 'IoMdPhonePortrait',
+      FAMILY: 'io',
+    },
+    NAME: 'Clothes Store',
+    TECH_STACK: 'ReactNative',
+    DESC: 'Implementation of UI design for a E-commerce Clothes store mobile app using ReactNative with mock data. It includes implementation of simple cart functionality of cart functionality using context and react navigation version 5. This could serve as simple starting for a simple small e-commerce projects.',
+    CATAGORY: PROJECT_CATAGORY.MOBILE,
+    REPO: 'https://github.com/ManigandanKrishnakumar/ClothesStoreUI',
+    IMAGES: [
+      'https://i.ibb.co/TmwVtM9/Home.png',
+      'https://i.ibb.co/2YcrYyd/Product-Details.png'
+    ]  
+  },
+  {
+    ID: 7,
+    ICON: 
+      {
+        NAME: 'SiNpm',
+        FAMILY: 'si',
+      },
+    NAME: 'Devtools Monitor',
+    TECH_STACK: 'Javascript',
+    CATAGORY: PROJECT_CATAGORY.HYBRID,
+    DESC: `An NPM package which can be used with any Javascript frameworks such as Angular, React, Vue, Vanilla JS to detect developer console is Opened or listen for opening of the developer console.`,
+    REPO: 'https://github.com/ManigandanKrishnakumar/dev-tools-detector',
+    NPM: 'https://www.npmjs.com/package/dev-tools-monitor',
+    IMAGES: [],
+  },
+  {
+    ID: 4,
+    ICON: 
+    {
+      NAME: 'IoMdPhonePortrait',
+      FAMILY: 'io',
+    },
+    NAME: 'Manager App',
+    TECH_STACK: 'ReactNative',
+    DESC: 'Implementation of UI design for a Manager App who can manage various teams and their projects and tasks. It has role based screens like Software team manager and Admin Team manager. This project also has animations with SVG and Vector Icons Configured along with custom Tab Bar.',
+    CATAGORY: PROJECT_CATAGORY.MOBILE,
+    REPO: 'https://github.com/ManigandanKrishnakumar/ManagerAppUI',
+    IMAGES: [
+      'https://i.ibb.co/MVckrCw/login.png',
+      'https://i.ibb.co/2hrKGWd/home.png',
+      'https://i.ibb.co/W33k51D/task-long-press.png ',    
+      'https://i.ibb.co/GtYCJjY/employee-profile.png' 
+    ]
+  },
+  {
+    ID: 5,
+    ICON: 
+    {
+      NAME: 'IoMdPhonePortrait',
+      FAMILY: 'io',
+    },
+    NAME: 'Recipe App',
+    TECH_STACK: 'ReactNative, Redux, Redux Thunk',
+    DESC: 'Implementation of UI design for a Recipie App where one can search for a recipe based on the ingredients and sort them by popularity/difficulty/time. And one can also look for trending recipies and save the recipies they like in offline.',
+    CATAGORY: PROJECT_CATAGORY.MOBILE,
+    REPO: 'https://github.com/ManigandanKrishnakumar/RecipeAppUI',
+    IMAGES: [
+      'https://i.ibb.co/NrmGMN0/Recipe-app-1.png',
+      'https://i.ibb.co/bKVM53T/Recipe-app-2.png',
+      'https://i.ibb.co/PQpQztr/Recipe-app-4.png',
+      'https://i.ibb.co/bXkpjK5/Recipe-app-5.png',
+      'https://i.ibb.co/7ptTDJW/Recipe-app-7.png',
+      'https://i.ibb.co/gPmSJRs/Recipe-app-8.png',
+    ]
+  },
+  {
     ID: 1,
     ICON: 
       {
@@ -129,63 +201,7 @@ OPEN_SOURCE: [
       'https://i.ibb.co/qRFTjP8/4.png'
     ]  
   },
-  {
-    ID: 3,
-    ICON: 
-    {
-      NAME: 'IoMdPhonePortrait',
-      FAMILY: 'io',
-    },
-    NAME: 'Clothes Store',
-    TECH_STACK: 'ReactNative',
-    DESC: 'Implementation of UI design for a E-commerce Clothes store mobile app using ReactNative with mock data. It includes implementation of simple cart functionality of cart functionality using context and react navigation version 5. This could serve as simple starting for a simple small e-commerce projects.',
-    CATAGORY: PROJECT_CATAGORY.MOBILE,
-    REPO: 'https://github.com/ManigandanKrishnakumar/ClothesStoreUI',
-    IMAGES: [
-      'https://i.ibb.co/TmwVtM9/Home.png',
-      'https://i.ibb.co/2YcrYyd/Product-Details.png'
-    ]  
-  },
-  {
-    ID: 4,
-    ICON: 
-    {
-      NAME: 'IoMdPhonePortrait',
-      FAMILY: 'io',
-    },
-    NAME: 'Manager App',
-    TECH_STACK: 'ReactNative',
-    DESC: 'Implementation of UI design for a Manager App who can manage various teams and their projects and tasks. It has role based screens like Software team manager and Admin Team manager. This project also has animations with SVG and Vector Icons Configured along with custom Tab Bar.',
-    CATAGORY: PROJECT_CATAGORY.MOBILE,
-    REPO: 'https://github.com/ManigandanKrishnakumar/ManagerAppUI',
-    IMAGES: [
-      'https://i.ibb.co/MVckrCw/login.png',
-      'https://i.ibb.co/2hrKGWd/home.png',
-      'https://i.ibb.co/W33k51D/task-long-press.png ',    
-      'https://i.ibb.co/GtYCJjY/employee-profile.png' 
-    ]
-  },
-  {
-    ID: 5,
-    ICON: 
-    {
-      NAME: 'IoMdPhonePortrait',
-      FAMILY: 'io',
-    },
-    NAME: 'Recipe App',
-    TECH_STACK: 'ReactNative, Redux, Redux Thunk',
-    DESC: 'Implementation of UI design for a Recipie App where one can search for a recipe based on the ingredients and sort them by popularity/difficulty/time. And one can also look for trending recipies and save the recipies they like in offline.',
-    CATAGORY: PROJECT_CATAGORY.MOBILE,
-    REPO: 'https://github.com/ManigandanKrishnakumar/RecipeAppUI',
-    IMAGES: [
-      'https://i.ibb.co/NrmGMN0/Recipe-app-1.png',
-      'https://i.ibb.co/bKVM53T/Recipe-app-2.png',
-      'https://i.ibb.co/PQpQztr/Recipe-app-4.png',
-      'https://i.ibb.co/bXkpjK5/Recipe-app-5.png',
-      'https://i.ibb.co/7ptTDJW/Recipe-app-7.png',
-      'https://i.ibb.co/gPmSJRs/Recipe-app-8.png',
-    ]
-  },
+  
   {
     ID: 6,
     ICON: 

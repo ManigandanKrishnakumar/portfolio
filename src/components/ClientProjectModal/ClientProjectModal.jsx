@@ -78,18 +78,32 @@ export default ({project, onClose, isOpen, type}) => {
               ): null
           }
 
-{
-            project.DEMO ? 
-              (
-                <div className="repo-url">
-                  <p>
-                    <span className="label">Demo Site : </span>
-                    <a className="link" href={project.DEMO} target="_blank" rel="noopener noreferrer">
-                      {project.DEMO}
-                    </a> 
-                  </p>
-                </div>
-              ): null
+        {
+          project.DEMO ? 
+            (
+              <div className="repo-url">
+                <p>
+                  <span className="label">Demo Site : </span>
+                  <a className="link" href={project.DEMO} target="_blank" rel="noopener noreferrer">
+                    {project.DEMO}
+                  </a> 
+                </p>
+              </div>
+            ): null
+          }
+
+        {
+          project.NPM ? 
+            (
+              <div className="repo-url">
+                <p>
+                  <span className="label">NPM page : </span>
+                  <a className="link" href={project.NPM} target="_blank" rel="noopener noreferrer">
+                    {project.NPM}
+                  </a> 
+                </p>
+              </div>
+            ): null
           }
           
           
