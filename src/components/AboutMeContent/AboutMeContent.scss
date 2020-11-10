@@ -1,14 +1,12 @@
 @import '../../StyleVariables.scss';
 
-$background: var(--highlight-color);
-
 .about-me-content-container {
-  background-color: $background;
+  background-color: var(--highlight-color);
   text-align: center;
   padding: 5rem 0 14rem 0;
 
   .about-me-wrapper {
-    background-color: $background;
+    background-color: var(--highlight-color);
     max-width: 75%;
     margin: 0 auto;
 

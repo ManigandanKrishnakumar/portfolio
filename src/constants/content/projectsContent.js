@@ -174,9 +174,12 @@ OPEN_SOURCE: [
     IMAGES: [
       'https://i.ibb.co/Pm7fmQT/1.png',
       'https://i.ibb.co/kmK0BzD/2.png',
+      'https://i.ibb.co/V2GN8VV/Screenshot-2020-11-08-at-1-16-38-AM.png',
       'https://i.ibb.co/JC80vT9/3.png',
       'https://i.ibb.co/prx6SGd/4.png',
+      'https://i.ibb.co/hZhN6CV/Screenshot-2020-11-10-at-11-07-11-PM.png',
       'https://i.ibb.co/XX6wSqg/5.png',
+      
       'https://i.ibb.co/N1PjH6y/6.png',
       'https://i.ibb.co/7Rkp4dc/7.png'
     ],

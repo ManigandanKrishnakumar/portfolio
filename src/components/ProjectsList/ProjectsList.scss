@@ -3,17 +3,22 @@
   max-height: 700px;
   overflow: auto;
   margin: 10px;
+
   .projects-list-wrapper {
     height: 100%;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
     @media (max-width: $breakpoint-tablet) {
-      width: 70%;
+      width: 95%;
     }
 
     @media (max-width: $breakpoint-mobile) {
       width: 80%;
+      padding: 0;
     }
 
     @media (max-width: $breakpoint-mobile-s) {
