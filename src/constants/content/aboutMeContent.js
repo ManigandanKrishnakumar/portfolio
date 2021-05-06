@@ -1,4 +1,4 @@
 export const ABOUTME_CONTENT = {
   GREETING: 'Hi, Nice to meet you.',
-  ABOUT_ME: `Since beginning my journey as a freelance software developer nearly 6 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I have been working at Sirius Computer Solutions for past 2.5 years and full-stack developer. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.`,
+  ABOUT_ME: `Since beginning my journey as a freelance software developer nearly 6 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I have been working at Sirius Computer Solutions for past 3.5 years as a full-stack developer. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.`,
 };

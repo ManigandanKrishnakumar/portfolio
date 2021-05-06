@@ -8,12 +8,11 @@ import {IoMdMail} from 'react-icons/io';
 import {MdPhone} from 'react-icons/md';
 
 const Footer = () => {
-  return(
+  return (
     <div className="footer-container">
-      <Logo className='logo'/>
+      <Logo className="logo" />
       <h2 className="quote">Eat. Sleep. Code. Repeat</h2>
       <div className="contact-buttons">
-        
         <a href="https://www.linkedin.com/in/manigandan-krishnakumar-6a167a166/">
           <div className="button">
             <GrLinkedinOption className="icon" />
@@ -26,7 +25,7 @@ const Footer = () => {
           </div>
         </a>
 
-        <a href="mailto:matt@pendeavor.com">
+        <a href="mailto:manigandan.krishnakumarn@gmail.com">
           <div className="button">
             <IoMdMail className="icon" />
           </div>
@@ -39,12 +38,9 @@ const Footer = () => {
         </a>
       </div>
 
-      <p className="contact-info">
-        manigandan.krishnakumarn@gmail.com
-      </p>
-      
+      <p className="contact-info">manigandan.krishnakumarn@gmail.com</p>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
