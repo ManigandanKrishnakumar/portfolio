@@ -6,7 +6,9 @@ import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
 export default ({currentTheme, onThemeChange}) => {
   return (
     <div className="header-container">
-      <Logo theme={currentTheme} />
+      <a href="#banner">
+        <Logo theme={currentTheme} />
+      </a>
       <ThemeSwitch theme={currentTheme} onThemeChange={onThemeChange} />
     </div>
   );

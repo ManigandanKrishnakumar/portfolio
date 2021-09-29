@@ -11,6 +11,14 @@
     }
   }
 
+  .role-message {
+    margin: 1em auto;
+
+    @media (max-width:  $breakpoint-mobile) {
+      font-size: 1rem;
+    }
+  }
+
   .motto {
     font-size: 1.25rem;
     @media (max-width: $breakpoint-mobile) {

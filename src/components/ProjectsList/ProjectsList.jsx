@@ -8,7 +8,6 @@ export default ({projects, type}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [clickedProject, setClickedProject] = useState();
   const onProjectClick = (project) => {
-    console.log(project);
     setClickedProject(project);
     setIsModalOpen(true);
   };
