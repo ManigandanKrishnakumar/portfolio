@@ -1,5 +1,5 @@
 {
-  "homepage": "http://www.manigandan.tech",
+  "homepage": "https://manigandankrishnakumar.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,7 @@
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
-    "react-icons": "^3.11.0",
+    "react-icons": "^4.7.1",
     "react-img-carousel": "^1.7.0",
     "react-modal": "^3.11.2",
     "react-responsive-carousel": "^3.2.10",

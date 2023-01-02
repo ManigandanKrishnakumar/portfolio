@@ -79,7 +79,7 @@ export const SKILL_CATAGORIES = [
           COLOR: '#C66593',
         },
         PROGRESS: '85',
-      }
+      },
     ],
   },
   {
@@ -143,6 +143,16 @@ export const SKILL_CATAGORIES = [
         },
         PROGRESS: '85',
       },
+      {
+        id: 6,
+        NAME: 'Solidity',
+        ICON: {
+          NAME: 'SiSolidity',
+          FAMILY: 'si',
+          COLOR: '#D9DCDF',
+        },
+        PROGRESS: '85',
+      },
     ],
   },
   {
@@ -185,6 +195,59 @@ export const SKILL_CATAGORIES = [
           COLOR: '#6572DA',
         },
         PROGRESS: '30',
+      },
+    ],
+  },
+  {
+    id: 4,
+    CATAGORY_ICON: {
+      NAME: 'AiOutlineSecurityScan',
+      FAMILY: 'ai',
+    },
+    CATAGORY_NAME: 'Security',
+    CATAGORY_DESC:
+      'I like to throw a hammer at the applications with intent to make it formidable !',
+    SKILLS_LABEL: 'Languages I speak',
+    SKILLS: [
+      {
+        id: 1,
+        NAME: 'BurpSuite',
+        ICON: {
+          NAME: 'AiFillBug',
+          FAMILY: 'ai',
+          COLOR: '#FF6633',
+        },
+        PROGRESS: 85,
+      },
+      {
+        id: 2,
+        NAME: 'Web Application Security',
+        ICON: {
+          NAME: 'MdWeb',
+          FAMILY: 'md',
+          COLOR: '#25D2F5',
+        },
+        PROGRESS: 85,
+      },
+      {
+        id: 3,
+        NAME: 'Network Security',
+        ICON: {
+          NAME: 'FaNetworkWired',
+          FAMILY: 'fa',
+          COLOR: '#005E86',
+        },
+        PROGRESS: '40',
+      },
+      {
+        id: 4,
+        NAME: 'Blockchain Security',
+        ICON: {
+          NAME: 'FaEthereum',
+          FAMILY: 'fa',
+          COLOR: '#82A9F9',
+        },
+        PROGRESS: '50',
       },
     ],
   },

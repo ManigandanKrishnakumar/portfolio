@@ -8,6 +8,6 @@ export const getTheme = (themeName) => {
     case THEMES.LIGHT:
       return LIGHT;
     default:
-      return LIGHT;
+      return DARK;
   }
 };

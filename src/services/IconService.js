@@ -4,6 +4,7 @@ import * as RiIcons from 'react-icons/ri';
 import * as SiIcons from 'react-icons/si';
 import * as MdIcons from 'react-icons/md';
 import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
 import {ICON_FAMILIES} from '../constants/app-constants';
 
 /**
@@ -19,6 +20,7 @@ export const getIcon = (family, name) => {
     [ICON_FAMILIES.SI_ICONS]: SiIcons,
     [ICON_FAMILIES.MD_ICONS]: MdIcons,
     [ICON_FAMILIES.FA_ICONS]: FaIcons,
+    [ICON_FAMILIES.AI_ICONS]: AiIcons,
     default: IonIcons,
   };
 

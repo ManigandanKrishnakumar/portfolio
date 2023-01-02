@@ -4,14 +4,21 @@ export const ICON_FAMILIES = {
   RI_ICONS: 'ri',
   SI_ICONS: 'si',
   MD_ICONS: 'md',
-  FA_ICONS: 'fa'
+  FA_ICONS: 'fa',
+  AI_ICONS: 'ai',
 };
 
-export const PROJECT_TABS = [{
-  id: 'client_projects',
-  name: 'Client Projects',
-},
-{
-  id: 'open_source_projects',
-  name: 'Open Source'
-}];
+export const PROJECT_TABS = [
+  {
+    id: 'client_projects',
+    name: 'Client Projects',
+  },
+  {
+    id: 'open_source_projects',
+    name: 'Open Source',
+  },
+  {
+    id: 'security',
+    name: 'Security',
+  },
+];

@@ -10,10 +10,15 @@ export default () => {
   return (
     <div className="recent-work-container">
       <TabBar selectedTab={tab} onTabSelect={setTab} />
-      {tab.id === 'client_projects' ? (
+      {tab.id === 'client_projects' && (
         <ProjectsList type={tab.id} projects={PROJECTS.CLIENT_PROJECTS} />
-      ) : (
+      )}
+      {tab.id === 'open_source_projects' && (
         <ProjectsList type={tab.id} projects={PROJECTS.OPEN_SOURCE} />
+      )}
+
+      {tab.id === 'security' && (
+        <ProjectsList type={tab.id} projects={PROJECTS.SECURITY} />
       )}
     </div>
   );

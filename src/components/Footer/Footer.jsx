@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <Logo className="logo" />
-      <h2 className="quote">Eat. Sleep. Code. Repeat</h2>
+      <h2 className="quote">Eat. Sleep. Learn. Repeat</h2>
       <div className="contact-buttons">
-        <a href="https://www.linkedin.com/in/manigandan-krishnakumar-6a167a166/">
+        <a href="https://www.linkedin.com/in/manigandan-krishnakumar/">
           <div className="button">
             <GrLinkedinOption className="icon" />
           </div>
@@ -25,20 +25,20 @@ const Footer = () => {
           </div>
         </a>
 
-        <a href="mailto:manigandan.krishnakumarn@gmail.com">
+        <a href="mailto:manigandan.ashvin@gmail.com">
           <div className="button">
             <IoMdMail className="icon" />
           </div>
         </a>
 
-        <a href="tel:+919994655540">
+        <a href="tel:+16176859831">
           <div className="button">
             <MdPhone className="icon" />
           </div>
         </a>
       </div>
 
-      <p className="contact-info">manigandan.krishnakumarn@gmail.com</p>
+      <p className="contact-info">manigandan.ashvin@gmail.com</p>
     </div>
   );
 };
