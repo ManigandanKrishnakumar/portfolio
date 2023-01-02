@@ -223,18 +223,6 @@ export const PROJECTS = {
       IMAGES: [],
     },
     {
-      ID: 1,
-      ICON: {
-        NAME: 'AiFillBug',
-        FAMILY: 'ai',
-      },
-      NAME: 'External Network Pentesting',
-      TECH_STACK: 'Nmap, Nessus, Spiderfoot, MongoDB',
-      DESC: "Performed external network pentesting on a client's range of public IPs and found serveral vulnerabilities. Reported the findings with information about severity, evidence, steps to reproduce and remediation",
-      CATAGORY: PROJECT_CATAGORY.MOBILE,
-      IMAGES: [],
-    },
-    {
       ID: 2,
       ICON: {
         NAME: 'AiFillBug',
@@ -255,6 +243,18 @@ export const PROJECTS = {
       NAME: 'Vulnerable Web3 Bank',
       TECH_STACK: 'Solidity, Javascript, Hardhat, Metamask, Oracles',
       DESC: 'Developed a banking application with intentionally placed vulnerabilities as a training lab that helped peers to learn to exploit web3 applications.',
+      CATAGORY: PROJECT_CATAGORY.MOBILE,
+      IMAGES: [],
+    },
+    {
+      ID: 4,
+      ICON: {
+        NAME: 'FaEthereum',
+        FAMILY: 'fa',
+      },
+      NAME: 'Access Control in Solidity',
+      TECH_STACK: 'Solidity, Blockchain, Web3',
+      DESC: 'Modeled a framework for implementing Access Control in Solidity that helped clients to improve the security.',
       CATAGORY: PROJECT_CATAGORY.MOBILE,
       IMAGES: [],
     },
